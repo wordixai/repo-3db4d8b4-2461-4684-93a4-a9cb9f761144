@@ -18,6 +18,11 @@ export default defineConfig({
     hmr: {
       clientPort: 443,
       protocol: 'wss'
-    }
-  }
+    },
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 });
