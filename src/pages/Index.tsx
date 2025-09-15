@@ -37,7 +37,7 @@ const Index = () => {
     {
       icon: <Film className="w-6 h-6" />,
       title: 'Template System',
-      description: 'Modular compositions for different video types',
+      description: 'Modular compositions for s',
       color: 'bg-green-500',
     },
   ];
